@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TRANSITANDO HACIA LA SUSTENTABILIDAD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+     <!--bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .seccion {
+            height: 100vh; /* Opcional: altura de cada sección a pantalla completa */
+        }
+        .seccion1 {
+            background-image: url('img/hojitas4.png');
+        }
+        .seccion2 {
+            background-image: url('img/hojitas4.png');
+            height: 160vh;
+        }
+        /* Agrega estilos para otras secciones si es necesario */
+    </style>
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-lg py-6">
+        <br>
+        <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+                <img width="13%" height="13%" src="img/Color.png">
+                <center>
+                    <ul>
+                        <li><a href="index.html" class="nav-item nav-link">Inicio</a></li>
+                        <li><a href="single.html" class="nav-item nav-link">¿Quienes somos?</a></li>
+                        <li><a href="about.html" class="nav-item nav-link">Voluntarios</a></li>
+                        <li><a href="destination.html" class="nav-item nav-link">Programas Activos</a></li>
+                        <li><a href="blog.html" class="nav-item nav-link">Participación comunitaria</a></li>
+                        <li><a href="contact.html" class="nav-item nav-link">Donar</a></li>
+                        <li><a href="contacto.html" class="nav-item nav-link">Contácto</a></li>
+                    </ul>
+                </center>
+            </div>
+        </div>
+    </nav>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/IMG_1838.jpg" alt="Image">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                    </div>
+                </div>
+                <div class="confeti-container">
+                    <!-- Inserta aquí las imágenes de hojas como elementos <img> -->
+                </div>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        const container = document.querySelector(".confeti-container");
+                        const numLeaves = 70; // Cantidad de hojas
+
+                        for (let i = 0; i < numLeaves; i++) {
+                            const leaf = document.createElement("img");
+                            leaf.src = "img/hojita.png"; // Reemplaza esto con la ruta de la imagen de la hoja
+                            leaf.style.width = "100px";
+                            leaf.style.position = "absolute";
+                            leaf.style.top = Math.random() * 100 + "%";
+                            leaf.style.left = Math.random() * 100 + "%";
+                            leaf.style.animation = "falling " + (Math.random() * 10 + 2) + "s linear infinite"; // Duración y animación
+
+                            container.appendChild(leaf);
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Testimonial Start -->
+    <div class="seccion seccion1">
+        <div class="seccion seccion1">
+            <br><br><br>
+            <div class="container py-5">
+                <div class="text-center mb-3 pb-3">
+                    <center><h1 class=" caja menu10"> Nuestra Historia</h1></center>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="text-center pb-4">
+                        <img class="img-fluid mx-auto" src="img/Color.jpg" style="width: 250px; height: 100px;">
+                        <div class="testimonial-text bg-white p-4 mt-n5">
+                            <p class="mt-5 menu1">Nacimos en el año 2017 de la necesidad de las comunidades que tienen contacto directo con la industria minera 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img class="img-fluid mx-auto" src="img/IMG_1742.jpg" style="width: 250px; height: 140px;">
+                        <div class="testimonial-text bg-white p-4 mt-n5">
+                            <p class="mt-5 menu1">Identificamos las comunidades con las que podiamos trabajar para poder encaminar a un desarrollo comunitario sustentable 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img class="img-fluid mx-auto" src="img/IMG_1655.jpg" style="width: 250px; height: 140px;">
+                        <div class="testimonial-text bg-white p-4 mt-n5">
+                            <p class="mt-5 menu1">En el año 2019 conseguimos ser donataria autorizada <br><br><br>                                              
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img class="img-fluid mx-auto" src="img/IMG_1529.jpg" style="width: 250px; height: 140px;;">
+                        <div class="testimonial-text bg-white p-4 mt-n5">
+                            <p class="mt-5 menu1">Actualmente desarrollamos proyectos enfocados a nuestros 4 ejes de acción <br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+    <center><img width="100%" height="80%" src="img/mision1.png"></center>
+
+    <!-- About Start -->
+    <div class="seccion2">
+        <div class="container-fluid py-5">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-6" style="min-height: 500px;">
+                        <div class="position-relative contenedor12 h-100">
+                            <img class="position-absolute w-100 h-100 imagen" src="img/1.jpg" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-5 pb-lg-5 position-relative">
+                        <div class="about-text bg-white p-4 p-lg-5 my-lg-5 borderp">
+                            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;"></h6>
+                            <h1 class="menu">Objetivo</h1>
+                            <p class="menu1">Dejamos huella en las comunidades que conviven directamente con el sector minero beneficiando a grandes y pequeños a través de diversos proyectos que impulsen su desarrollo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1)!important;">
+        <div class="row">
+            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                &copy; TRANSITANDO HACIA LA SUSTENTABILIDAD S.A
+                <center>
+                    <div class="d-flex justify-content-start">
+                        <a class="btn btn-outline-primary btn-square mr-2" href="https://www.facebook.com/transitandohsAC"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square mr-2" href="https://www.youtube.com/@transitandohacialasustenta7409/featured"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="https://instagram.com/transitandohs_ac?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
